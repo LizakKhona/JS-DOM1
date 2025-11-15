@@ -9,7 +9,7 @@ function onChangeBtnContent(event) {
 
 
 const imgElem = document.querySelector(".gallery-img-js");
-imgElem.src = "/images/evening-city.jpg"
+imgElem.src = "./images/evening-city.jpg"
 imgElem.alt = "An evening city"
 
 

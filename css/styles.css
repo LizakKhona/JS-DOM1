@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+button {
+    width: 95px;
+    background-color: violet;
+    border-radius: 5px;
+    height: 25px;
+}
+.box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.box a {
+    display: block;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list-item + .list-item {
+    margin-top: 10px;
+}
